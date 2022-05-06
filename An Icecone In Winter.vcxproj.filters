@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Engine\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\Collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\MapLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Dispensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\DispensorObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Slot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\CustomerAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneObjects\Customers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\MC\McWalkFront.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\TILESET\Tilesheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\SPRITESETS\McWalk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\SPRITESETS\collider.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\BASE.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\BUILDING.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\FENCE.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\OutsideObjects.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\TablesV1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\TablesV2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\TablesV3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\U1v1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\U1v2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\U1v3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\BlueCream.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\brownCoffee.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\BrownCream.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\caramelCoffee.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\ice creams.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\Labels.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\pinkCoffee.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\PinkCream.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\snow1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\snow2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\UI\snow3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\MAPS\Layers\labels.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\SPRITESETS\MonsterTurning.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libjpeg-9.dll" />
+    <None Include="libpng16-16.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="SDL2.dll" />
+    <None Include="Assets\TILESET\MainMap.tmx" />
+    <None Include="Assets\TILESET\SnowGame.tsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\MAPS\snowLayer.txt" />
+  </ItemGroup>
+</Project>
